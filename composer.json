@@ -1,0 +1,17 @@
+{
+    "name": "koala-framework/kwf-cloudflare",
+    "description": "Cloudflare Integration for Koala Framework",
+    "homepage": "http://www.koala-framework.org/",
+    "license": "BSD-2-Clause",
+    "type": "library",
+    "require": {
+        "koala-framework/koala-framework": "~4.2 || ~5.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "KwfCloudflare_": ""
+        }
+    }
+}
