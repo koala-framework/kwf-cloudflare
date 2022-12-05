@@ -1,1 +1,1 @@
-= Cloudflare Cache Integration for Koala Framework
+# Cloudflare Cache Integration for Koala Framework
