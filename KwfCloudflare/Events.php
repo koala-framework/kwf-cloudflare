@@ -19,11 +19,6 @@ class KwfCloudflare_Events extends Kwf_Events_Subscriber
             'event' => 'Kwf_Events_Event_CreateAssetUrl',
             'callback' => 'onCreateAssetUrl'
         );
-        $ret[] = array(
-            'class' => null,
-            'event' => 'Kwf_Events_Event_Media_Changed',
-            'callback' => 'onMediaChanged'
-        );
         return $ret;
     }
 
